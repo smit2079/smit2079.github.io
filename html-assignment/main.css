@@ -6,3 +6,7 @@ body {
 header, footer {
     background-color: darkturquoise;
 }
+
+.site-title {
+    color: midnightblue;
+}
