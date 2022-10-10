@@ -12,13 +12,21 @@ header, footer {
 }
 
 #my-image {
-    box-shadow: 0px 2px 1px rgba(0,0,0,0);
+    box-shadow: 0px 0px 2px 1px black;
 }
 
 article ul {
-    text-decoration: square;
+    list-style: square;
 }
 
-a [href="notes.html"] {
+a[href="notes.html"] {
     text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color:tomato;
+}
+
+.bullet-list :nth-child(odd) {
+    background: lightgrey;
 }
