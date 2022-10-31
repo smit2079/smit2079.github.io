@@ -12,5 +12,25 @@ body {
 }
 
 header {
-    background-image: url()
+    background-image: url(../images/american-3563291_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 0 auto;
+
+}
+
+
+.columns > div {
+    width: 50%;
+    float: left;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
 }
