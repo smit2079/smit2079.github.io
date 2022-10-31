@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "midterm"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "smit2079.github.io"
+	}
+}
