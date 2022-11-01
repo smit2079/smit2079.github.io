@@ -12,15 +12,28 @@ body {
 }
 
 header {
-    background-image: url(../images/american-3563291_1920.jpg);
+    background-image: url(../images/football-78394_1920.jpg);
+    background-color: rgba(0,0,0,.5);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    color: white;
+    position: center;
+    text-shadow: 2px 2px #000000;
+    width: 100%;
+    /*adjust stacking Z order*/
+    z-index: 2;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1rem;
 }
 
 .wrapper {
     margin: 0 auto;
-
+    width: 1200px;
 }
 
 
@@ -33,4 +46,8 @@ header {
     content:"";
     display: block;
     clear: both;
+}
+
+.form {
+    border: 1px;
 }
