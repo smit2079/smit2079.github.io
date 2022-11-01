@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(204, 255, 255);
+    background-color: rgb(183, 185, 190);
 }
 
 /*targets the h1 tag to position it and give a shadow effect*/
 
 h1 {
-    position: center;
-    text-shadow: 2px 2px #000000;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
 }
 
 /*targets the header tag and adjusts sizing, color, and adds the image*/
@@ -20,7 +20,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    position: center;
+    text-align: center;
     width: 100%;
     height: 350px;
 
@@ -143,4 +143,10 @@ nav ul li {
 footer {
     text-align: right;
     padding-right: 45px;
+}
+
+#button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5% 0.5% 0.5% 0.5%;
 }
