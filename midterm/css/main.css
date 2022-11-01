@@ -54,6 +54,7 @@ nav ul li {
 #home {
     border-right: 2px solid black;
     padding: 0% 8% 0% 8%;
+    text-decoration: none;
 }
 
 /*targets the story id and adds border and padding*/
@@ -61,12 +62,14 @@ nav ul li {
 #story {
     border-right: 2px solid black;
     padding: 0% 8% 0% 8%;
+    text-decoration: none;
 }
 
 /*targets the contact id and adds border and padding*/
 
 #contact {
     padding: 0% 8% 0% 8%;
+    text-decoration: none;
 }
 
 /*targets the wrapper class and adjusts margin and width*/
