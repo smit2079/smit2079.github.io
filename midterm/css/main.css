@@ -8,10 +8,6 @@ h1 {
     text-shadow: 2px 2px #000000;
 }
 
-.navigation {
-    list-style: none;
-}
-
 #nfl-logo {
     width: 250px;
 }
@@ -31,6 +27,7 @@ header {
     z-index: 2;
     top: 0;
     text-align: center;
+    line-height: 300px;
     font-size: 40px;
 }
 
@@ -59,7 +56,7 @@ nav ul li {
 .form {
     border: 2px solid black;
     padding: 6px;
-    width: 100%
+    width: 100%;
 }
 
 footer {
