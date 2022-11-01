@@ -16,6 +16,7 @@ header {
     background-color: rgba(0,0,0,.5);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     color: white;
     position: center;
@@ -49,7 +50,9 @@ nav ul li {
 }
 
 .form {
-    border: 1px;
+    border: 2px solid black;
+    padding: 6px;
+    width: 100%
 }
 
 footer {
