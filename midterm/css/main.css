@@ -145,6 +145,8 @@ footer {
     padding-right: 45px;
 }
 
+/*targets the button id and adds color, border, and padding*/
+
 #button {
     background-color: white;
     border: 1px solid black;
