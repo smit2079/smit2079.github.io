@@ -51,3 +51,7 @@ nav ul li {
 .form {
     border: 1px;
 }
+
+footer {
+    position: right;
+}
