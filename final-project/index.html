@@ -13,13 +13,15 @@
 <!-- Div that contains the navigation, as well as the logo, search bar, and a search icon -->
         <div>
             <nav class="navigation">
-                <img src="images/logo.png" alt="Stars">
-                <ul>
-                  <li><a href="#home-anchor">Home</a></li>
-                  <li><a href="#aboutus-anchor">About Us</a></li>
-                  <li><a href="#service-anchor">Services</a></li>
-                  <li><a href="#team-anchor">Team</a></li>
-                  <li><a href="#contact-anchor">Contact</a></li>
+                <div class="logobackground">
+                    <img src="images/logo.png" alt="Stars">
+                  <ul>
+                  <li><a href="#home-anchor" id="home">Home</a></li>
+                </div>
+                  <li><a href="#aboutus-anchor" id="tabnav">About Us</a></li>
+                  <li><a href="#service-anchor" id="tabnav">Services</a></li>
+                  <li><a href="#team-anchor" id="tabnav">Team</a></li>
+                  <li><a href="#contact-anchor" id="tabnav">Contact</a></li>
                 </ul>
                 <input type="text" placeholder="Search">
                 <i class='fa fa-search'></i>
@@ -186,8 +188,8 @@
     </div>
 <!-- Footer with copyright symbol and paragraph with link to image source -->
     <footer>
-        <p>&copy; Copyright Three Star Media, 2020</p>
-        <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        <p class="copyright">&copy; Copyright Three Star Media, 2020</p>
+        <p class="unsplashcredit">All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
 </body>
 </html>
