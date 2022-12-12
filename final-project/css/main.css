@@ -100,3 +100,52 @@ a:hover {
 .tabnav {
     color: darkgoldenrod;
 }
+
+#button {
+    background-color: black;
+    color: darkgoldenrod;
+    border: none;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.fa-search {
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    border-radius: none;
+    background-color: black;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+iframe {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+input[type=text] {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px;
+    line-height: 20px;
+    border: 1px solid #222;
+}
+
+.searchbar {
+    text-align: center;
+}
