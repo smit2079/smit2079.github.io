@@ -101,6 +101,10 @@ a:hover {
 
 .tabnav {
     color: darkgoldenrod;
+    display: block;
+    text-align: center;
+    font-size: 16pt;
+    padding: 15px;
 }
 
 #button {
@@ -172,6 +176,7 @@ input[type=text] {
     border: none;
     font-size: larger;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .marketing {
@@ -180,6 +185,7 @@ input[type=text] {
     border: none;
     font-size: larger;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .video {
@@ -188,6 +194,7 @@ input[type=text] {
     border: none;
     font-size: larger;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .web {
@@ -196,6 +203,7 @@ input[type=text] {
     border: none;
     font-size: larger;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .print {
@@ -204,14 +212,16 @@ input[type=text] {
     border: none;
     font-size: larger;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .vision {
     background-color: #222;
     color: white;
-    border: none;
+    border: 2px solid darkgoldenrod;
     font-size: larger;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .homepage {
@@ -273,4 +283,9 @@ h3 {
     font-size: 1.5rem;
     font-weight: bold;
     margin: 10px;
+}
+
+h5 {
+    border-bottom: 3px solid #c78c06;
+    padding-bottom: 6px;
 }
