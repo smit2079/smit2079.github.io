@@ -70,12 +70,18 @@ header {
     color: black;
     display: block;
     text-align: center;
+    padding: 15px;
 }
 
 #tabnav {
     color: darkgoldenrod;
     display: block;
     text-align: center;
+}
+
+ul, li {
+    list-style: none;
+    margin: 15px;
 }
 
 a:link, a:visited {
@@ -288,4 +294,10 @@ h3 {
 h5 {
     border-bottom: 3px solid #c78c06;
     padding-bottom: 6px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
