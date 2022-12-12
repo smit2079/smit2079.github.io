@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -58,6 +58,8 @@ header {
 
 .maintitle {
     color: white;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .logobackground {
@@ -157,4 +159,118 @@ input[type=text] {
     border: none;
     padding: 40px;
     font-size: 20pt;
+}
+
+.fa-play {
+    padding-left: 18px;
+    color: white;
+}
+
+.digital {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 20px;
+}
+
+.marketing {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 20px;
+}
+
+.video {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 20px;
+}
+
+.web {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 20px;
+}
+
+.print {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 20px;
+}
+
+.vision {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: larger;
+    padding: 20px;
+}
+
+.homepage {
+    background-color: rgba(2, 2, 2, 0.8);
+    color: white;
+    margin: 15px 30px 15px 30px;
+    padding: 1.5rem;
+}
+
+.about {
+    background-color: #ffe6ac;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-end;
+}
+
+.dt {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.market {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.vp {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.wd {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.printplans {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.john {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+.bob {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
 }
