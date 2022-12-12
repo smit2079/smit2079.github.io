@@ -149,3 +149,12 @@ input[type=text] {
 .searchbar {
     text-align: center;
 }
+
+.connect {
+    background-color: #c78c06;
+    color: black;
+    margin: auto;
+    border: none;
+    padding: 40px;
+    font-size: 20pt;
+}
