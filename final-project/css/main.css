@@ -57,9 +57,23 @@ header {
 }
 
 .maintitle {
+    background-color: rgba(23, 23, 23, 0.8);
     color: white;
-    font-size: 60px;
-    font-weight: bold;
+    width: 100%;
+    max-width: 1200px;
+    padding: 5px;
+}
+
+.maintitle h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 10px;
+    line-height: 50px;
+}
+
+.maintitle p {
+    line-height: 20px;
+    padding: 5px;
 }
 
 .logobackground {
@@ -160,15 +174,22 @@ input[type=text] {
 
 .searchbar {
     text-align: center;
+    background-color: #222;
+    border-radius: none;
+    border: 1px solid darkgoldenrod;
 }
 
 .connect {
     background-color: #c78c06;
     color: black;
-    margin: auto;
+    padding: 30px;
     border: none;
-    padding: 40px;
-    font-size: 20pt;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.fa-caret-right {
+    padding-left: 10px;
 }
 
 .fa-play {
@@ -231,10 +252,11 @@ input[type=text] {
 }
 
 .homepage {
-    background-color: rgba(2, 2, 2, 0.8);
-    color: white;
-    margin: 15px 30px 15px 30px;
-    padding: 1.5rem;
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    padding: 30px 0px;
+    height: auto;
 }
 
 .about {
