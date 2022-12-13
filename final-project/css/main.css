@@ -364,19 +364,32 @@ h5 {
 .mark {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .vid {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .webdev {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .pr {
     width: 100%;
     margin: auto;
+    padding-top: 10px;
+}
+
+.ourvision {
+    color: white;
+}
+
+.learnmore {
+    color: white;
+    line-height: 25px;
 }
