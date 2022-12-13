@@ -489,3 +489,20 @@ footer {
     padding: 10px;
     background-color: #222;
 }
+
+/****************
+DESKTOP
+****************/
+
+@media screen and (min-width: 760px) {
+    .homepage {
+        background-image: url(../images/main-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 30px 70px;
+    }
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+     }
+}
