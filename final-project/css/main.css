@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 ol, ul {
     list-style: none;
@@ -60,13 +61,13 @@ header {
     background-color: rgba(23, 23, 23, 0.8);
     color: white;
     width: 100%;
-    max-width: 1200px;
     padding: 5px;
+    height: auto;
 }
 
 .maintitle h1 {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 1500;
     padding: 10px;
     line-height: 50px;
 }
@@ -124,7 +125,7 @@ a:hover {
     display: block;
     text-align: center;
     font-size: 16pt;
-    padding: 15px;
+    padding: 25px;
 }
 
 #button {
@@ -137,7 +138,6 @@ a:hover {
 
 .fa-search {
     color: darkgoldenrod;
-    border: 1px solid darkgoldenrod;
     border-radius: none;
     background-color: black;
 }
@@ -177,6 +177,10 @@ input[type=text] {
     background-color: #222;
     border-radius: none;
     border: 1px solid darkgoldenrod;
+}
+
+.search {
+    width: 95%;
 }
 
 .connect {
@@ -253,7 +257,7 @@ input[type=text] {
 
 .homepage {
     background-image: url(../images/main-banner.jpg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: 100%;
     padding: 30px 0px;
     height: auto;
@@ -261,9 +265,8 @@ input[type=text] {
 
 .about {
     background-color: #ffe6ac;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: flex-end;
+    margin: auto;
+    padding: 10px;
 }
 
 .dt {
@@ -322,4 +325,12 @@ h5 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
+}
+
+.aboutusimg {
+    width: 95%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    max-width: 1100px;
 }
