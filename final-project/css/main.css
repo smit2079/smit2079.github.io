@@ -414,23 +414,27 @@ h2 {
     padding: 10px;
 }
 
+/*targets all h3 tags and adjusts font-size, font weight, and margin*/
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
     margin: 10px;
 }
 
+/*targets all h5 tags and adds a bottom border and adjusts bottom padding*/
 h5 {
     border-bottom: 3px solid #c78c06;
     padding-bottom: 6px;
 }
 
+/*targets the wrapper class and adjusts width while adding a max width and margin*/
 .wrapper {
     width: 100%;
     max-width: 1200px;
     margin: auto;
 }
 
+/*targets the aboutusimg class and adjusts the width, margin, and padding. it also displays it as block and adds a max width*/
 .aboutusimg {
     width: 95%;
     margin: auto;
@@ -439,6 +443,7 @@ h5 {
     max-width: 1100px;
 }
 
+/*targets numerous classes for images and adjusts width and margin, as well as add top padding*/
 .digi {
     width: 100%;
     margin: auto;
@@ -469,15 +474,18 @@ h5 {
     padding-top: 10px;
 }
 
+/*targets the ourvision class and changes the text color*/
 .ourvision {
     color: white;
 }
 
+/*targets the learnmore class and adds color and adjusts line height*/
 .learnmore {
     color: white;
     line-height: 25px;
 }
 
+/*targets the learnmore class and adds a background image, and centers it and covers the width of the page. it also makes its position relative and adds a width and padding*/
 .learnmore {
     background-image: url(../images/vision.jpg);
     background-position: center;
@@ -487,6 +495,7 @@ h5 {
     padding: 15px;
 }
 
+/*targets numerous classes that are in the form section and adjusts the font size*/
 .namefull {
     font-size: 9pt;
 }
@@ -499,10 +508,12 @@ h5 {
     font-size: 9pt;
 }
 
+/*targets the formlabels class and adjusts padding*/
 .formlabels {
     padding-left: 10px;
 }
 
+/*targets the images in the "Our Team" section and adjusts the width*/
 .johnimg {
     width: 100%;
 }
@@ -511,6 +522,7 @@ h5 {
     width: 100%;
 }
 
+/*targets the classes for the "Hour of Operations" and "Location" adjusts the font size*/
 .hoo {
     font-size: 15pt;
 }
@@ -519,11 +531,13 @@ h5 {
     font-size: 15pt;
 }
 
+/*targets the unsplash class and adds an underline and changes the color*/
 .unsplash {
     text-decoration: underline;
     color: darkgoldenrod;
 }
 
+/*targets the footer and adds padding and a background color*/
 footer {
     padding: 10px;
     background-color: #222;
