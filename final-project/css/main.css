@@ -35,6 +35,7 @@ body {
 }
 ol, ul {
     list-style: none;
+    
 }
 blockquote, q {
     quotes: none;
@@ -150,8 +151,8 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
-    margin: auto;
-    width: 90%;
+    margin: 10px;
+    width: 95%;
 }
 
 th {
@@ -170,6 +171,7 @@ input[type=text] {
     margin: 10px;
     line-height: 20px;
     border: 1px solid #222;
+    border-radius: 2px;
 }
 
 input[type=text2] {
@@ -179,6 +181,7 @@ input[type=text2] {
     line-height: 20px;
     border: 1px solid #222;
     min-height: 200px;
+    border-radius: 2px;
 }
 
 .searchbar {
@@ -461,6 +464,28 @@ h5 {
     padding-left: 10px;
 }
 
-img {
-    width: 85%;
+.johnimg {
+    width: 100%;
+}
+
+.bobimg {
+    width: 100%;
+}
+
+.hoo {
+    font-size: 15pt;
+}
+
+.loc {
+    font-size: 15pt;
+}
+
+.unsplash {
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+
+footer {
+    padding: 10px;
+    background-color: #222;
 }
