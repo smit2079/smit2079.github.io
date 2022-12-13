@@ -28,15 +28,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
+/*line height spaces the text out and the font is added to the entire body. overflow-x allows scrolling to not view overflowing elements*/
 body {
     line-height: 1;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
+
+/*targets the ordered lists and unordered lists to remove list styles*/
 ol, ul {
     list-style: none;
-    
 }
+
 blockquote, q {
     quotes: none;
 }
@@ -504,5 +508,34 @@ DESKTOP
     .wrapper {
         max-width: 1200px;
         margin: auto;
-     }
+    }
+    .digitalt {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        float: left;
+        width: 46%;
+    }
+    .mrkt {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        float: right;
+        width: 46%;
+    }
+}
+
+@media screen and (min-wdith: 1200px) {
+    .dt {
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .digi {
+        padding: 3em;
+        width: 50;
+        float: left;
+    }
 }
