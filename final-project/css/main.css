@@ -553,26 +553,25 @@ DESKTOP
         display: inline-block;
         width: 50%;
         grid-template-columns: 1fr;
-        float: right;
     }
 
     .mrkt {
         display: grid;
         grid-template-columns: 1fr;
-        width: 40%;
+        width: 50%;
     }
     .allwebdev {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        width: 25%;
+        width: 50%;
     }
 
     .allprint {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        width: 25%;
+        width: 50%;
     }
 }
 
@@ -639,20 +638,32 @@ DESKTOP
         width: 50%;
     }
 }
-/*gives media screen and targets form section and gives it padding top*/
+
+/*gives media screen and targets form clss and gives it padding top of 20%*/
 @media screen and (min-width:750px) {
     .form {
         padding-top: 20%;
     }
 }
 
+/*targets the media screen with class of digitalt and adjusts width*/
 @media screen and (min-width:750px) {
     .digitalt {
         width: 50%;
     }
 }
 
+/*targets the media screen with class of threeelements and adds grid display and grid properties*/
 @media screen and (min-width:400px) {
+    .main-content {
+        width: 70%;
+        float: left;
+    }
+
+    .sidebar {
+        width: 29%;
+        float: right;
+    }
     .threeelements {
         display: grid;
         grid-template-columns: 1fr;
