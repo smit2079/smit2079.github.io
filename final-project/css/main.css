@@ -547,69 +547,119 @@ footer {
 DESKTOP
 ****************/
 
-@media screen and (min-width: 760px) {
-    .homepage {
-        background-image: url(../images/main-banner.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        padding: 30px 70px;
-    }
-    .wrapper {
-        max-width: 1200px;
-        margin: auto;
-    }
-    .digitalt {
-        display: grid;
+/*gives media screen to video production, web dev, and print section, and sets the display, grid, and width*/
+@media screen and (min-width: 750px) {
+    .allvideoprod {
+        display: inline-block;
+        width: 50%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        width: 46%;
+        float: right;
     }
+
     .mrkt {
         display: grid;
         grid-template-columns: 1fr;
+        width: 40%;
+    }
+    .allwebdev {
+        display: grid;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        width: 46%;
+        width: 25%;
+    }
+
+    .allprint {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 25%;
     }
 }
 
+/*gives media screen to john and bob sections and sets the display, grid, width, float*/
 @media screen and (min-width:750px) {
     .alljohn {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         width: 50%;
     }
 
     .allbob {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         width: 50%;
         float: right;
     }
 }
 
-@media screen and (min-with:1120px) {
+/*gives media screen to send us a message section and location section and gives it display, grid, width, and float*/
+@media screen and (min-width:750px) {
+    .leftsendarea {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 45%;
+    }
+
+    .location {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        width: 45%;
+        float: right;
+    }
+}
+/*gives media screen to about us section and sets display, grid, width, padding*/
+
+@media screen and (min-width:1120px) {
     .about {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        width: 40%;
+        width: 50%;
         padding-right: 50%;
+        grid-template-rows: 2fr;
+    }
+
+    .aboutp {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        float: right
     }
 }
 
-@media screen and (min-wdith:1200px) {
-    .dt {
-        padding: 1em;
-        display: flex;
-        flex-direction: row;
+/*gives media screen to hours of operation and table section and sets flex, display, and width*/
+@media screen and (min-width:750px) {
+    .hofandtable {
         flex-wrap: wrap;
+        display: grid;
+        width: 50%;
     }
+}
+/*gives media screen and targets form section and gives it padding top*/
+@media screen and (min-width:750px) {
+    .form {
+        padding-top: 20%;
+    }
+}
 
-    .digi {
-        padding: 3em;
-        width: 50;
-        float: left;
+@media screen and (min-width:750px) {
+    .digitalt {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:400px) {
+    .threeelements {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-start: repeat(3,1fr);
+        grid-column-end: repeat(3,1fr);
+        flex-wrap: wrap;
+        align-self: start;
     }
 }
