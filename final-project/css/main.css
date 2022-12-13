@@ -132,7 +132,7 @@ a:hover {
     background-color: #222;
     color: darkgoldenrod;
     border: none;
-    margin: 20px;
+    margin: 10px;
     font-size: 1.5rem;
 }
 
@@ -455,4 +455,8 @@ h5 {
 
 .msg {
     font-size: 9pt;
+}
+
+.formlabels {
+    padding-left: 10px;
 }
