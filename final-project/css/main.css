@@ -41,6 +41,7 @@ ol, ul {
     list-style: none;
 }
 
+/*blockquote shows a section that uses info from another source. in this case there are no quotes*/
 blockquote, q {
     quotes: none;
 }
@@ -49,6 +50,8 @@ q:before, q:after {
     content: '';
     content: none;
 }
+
+/*table tag has no spacing between the border and content and it collapses*/
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -58,10 +61,12 @@ table {
 CSS BEGIN
 */
 
+/*header with a background color*/
 header {
     background-color: rgb(23, 23, 23);
 }
 
+/*targets the maintitle class and adds a background color, text color, width, padding, and height*/
 .maintitle {
     background-color: rgba(23, 23, 23, 0.8);
     color: white;
@@ -70,6 +75,7 @@ header {
     height: auto;
 }
 
+/*targets the h1 tags within the maintitle class and adjusts the font size, font weight, padding, and line-height*/
 .maintitle h1 {
     font-size: 3rem;
     font-weight: 1500;
@@ -77,15 +83,18 @@ header {
     line-height: 70px;
 }
 
+/*targets the p tags within the maintitle class and adjusts the line height and the padding*/
 .maintitle p {
     line-height: 20px;
     padding: 5px;
 }
 
+/*targets the logobackground class and adds a background color*/
 .logobackground {
     background-color: darkgoldenrod;
 }
 
+/*targets the home id and adds color, displays it as a block, centers the text and adds padding*/
 #home {
     color: black;
     display: block;
@@ -93,38 +102,46 @@ header {
     padding: 15px;
 }
 
+/*targets the tabnav id and adds a text color, displays it as a block, and centers the text*/
 #tabnav {
     color: darkgoldenrod;
     display: block;
     text-align: center;
 }
 
+/*targets the unordered list and list items in the nav and removes list styling and adds a margin*/
 ul, li {
     list-style: none;
     margin: 15px;
 }
 
+/*targets any links that are visited and removes text decoration after the link has been visited*/
 a:link, a:visited {
     text-decoration: none;
 }
 
+/*targets the copyright class and adds a text color*/
 .copyright {
     color: darkgoldenrod;
 }
 
+/*targets the unsplashcredit class and adds a text color*/
 .unsplashcredit {
     color: darkgoldenrod;
 }
 
+/*targets the footer and adds a background color*/
 footer {
     background-color: black;
 }
 
+/*targets any links that you hover over, which changes the text color and adds a hover color*/
 a:hover {
     color: black;
     background-color: #c78c06;
 }
 
+/*targets the tabnav class and adds a text color, displays as block, centers the text, adjusts font size, and adds padding*/
 .tabnav {
     color: darkgoldenrod;
     display: block;
@@ -133,6 +150,7 @@ a:hover {
     padding: 25px;
 }
 
+/*targets the button id and adds a background color, text color, removes any borders, adds margin, and adjusts font size*/
 #button {
     background-color: #222;
     color: darkgoldenrod;
@@ -141,16 +159,19 @@ a:hover {
     font-size: 1.5rem;
 }
 
+/*targets the fa-search class and changes the color of the icon, as well as remove any border radius, and adds a background color*/
 .fa-search {
     color: darkgoldenrod;
     border-radius: none;
     background-color: black;
 }
 
+/*targets the table and adds a fixed layout*/
 table {
     table-layout: fixed;
 }
 
+/*targets the table and the elements inside. this adds a border around the elements, collapes it, adds padding and margin, and adjusts the width*/
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -159,16 +180,19 @@ table, th, td {
     width: 95%;
 }
 
+/*targets the items within the table and adds a background color*/
 th {
     background-color: #ffe6ac;
 }
 
+/*targets the map and adjusts the width, margin, and displays as block*/
 iframe {
     width: 95%;
     margin: auto;
     display: block;
 }
 
+/*targets the text input and adjusts width, margin, line height, and adds a border and border radius*/
 input[type=text] {
     width: 95%;
     max-width: 1100px;
@@ -178,6 +202,7 @@ input[type=text] {
     border-radius: 2px;
 }
 
+/*targets the text2 input and adjusts width with a max and min width, margin, line height, and adds a border and border radius*/
 input[type=text2] {
     width: 95%;
     max-width: 1100px;
@@ -188,6 +213,7 @@ input[type=text2] {
     border-radius: 2px;
 }
 
+/*targets the searchbar class and centers the text, adds a background color, removes border radius, and adds a border*/
 .searchbar {
     text-align: center;
     background-color: #222;
@@ -195,10 +221,12 @@ input[type=text2] {
     border: 1px solid darkgoldenrod;
 }
 
+/*targets the search input and increases its width*/
 .search {
     width: 95%;
 }
 
+/*targets the "Connect with us" button and adds a background color, text color, adjusts padding and margin and font size, and removes border*/
 .connect {
     background-color: #c78c06;
     color: black;
@@ -208,15 +236,18 @@ input[type=text2] {
     font-size: 1.5rem;
 }
 
+/*targets the arrow icon in the "Connect with us" button and adjusts the padding*/
 .fa-caret-right {
     padding-left: 10px;
 }
 
+/*targets the fa-play class and adds padding and color*/
 .fa-play {
     padding-left: 18px;
     color: white;
 }
 
+/*a collection of class targets in the "Our Services" section that adds background color, text color, removes border, and adjusts the font size, padding, and font family*/
 .digital {
     background-color: #222;
     color: white;
@@ -262,6 +293,7 @@ input[type=text2] {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*targets the vision class and adds a background color with adjusted opacity, adds text color and padding, and adjusts the border and font family*/
 .vision {
     background-color: rgba(22,22,22, 0.8);
     color: white;
@@ -271,6 +303,7 @@ input[type=text2] {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*targets the homepage class and adds a background image and padding, and adjusts the positioning, size, removes repeat and adjusts height*/
 .homepage {
     background-image: url(../images/main-banner.jpg);
     background-position: center;
@@ -280,6 +313,7 @@ input[type=text2] {
     height: auto;
 }
 
+/*targets the numerous classes that range from "About Us" to "Our Team" and adds background color and adjusts the margin, padding, font size, and line height*/
 .about {
     background-color: #ffe6ac;
     margin: auto;
@@ -373,6 +407,7 @@ input[type=text2] {
     line-height: 20px;
 }
 
+/*targets all h2 tags and adjusts the font size, font weight, and padding*/
 h2 {
     font-size: 2.5rem;
     font-weight: 900;
@@ -513,19 +548,44 @@ DESKTOP
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        float: left;
         width: 46%;
     }
     .mrkt {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        float: right;
         width: 46%;
     }
 }
 
-@media screen and (min-wdith: 1200px) {
+@media screen and (min-width:750px) {
+    .alljohn {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 50%;
+    }
+
+    .allbob {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 50%;
+        float: right;
+    }
+}
+
+@media screen and (min-with:1120px) {
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 40%;
+        padding-right: 50%;
+    }
+}
+
+@media screen and (min-wdith:1200px) {
     .dt {
         padding: 1em;
         display: flex;
